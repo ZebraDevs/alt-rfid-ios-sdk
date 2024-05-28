@@ -5,11 +5,11 @@ Pod::Spec.new do |s|
   s.description  =  <<-DESC
 		Zebra barcode and RFID iOS SDK Framework.
 			DESC
-  s.homepage     = 'https://github.com/ZebraDevs/alt-rfid-ios-sdk'
+  s.homepage     = 'https://github.com/ZebraDevs/alt-rfid-ios-sdk.git'
   s.authors      = { 'ZebraTechnologies' => 'altrfidscm@zebra.com' }
   s.license      = 'MIT'
   
-  s.source       = { :git => 'https://github.com/ZebraDevs/alt-rfid-ios-sdk', :tag => s.version }
+  s.source       = { :git => 'https://github.com/ZebraDevs/alt-rfid-ios-sdk.git', :tag => s.version }
   s.vendored_libraries = 'ZebraRfidSdkFramework.xcframework, ZebraScannerFramework.xcframework'
   s.ios.deployment_target  = '14.0'
 
