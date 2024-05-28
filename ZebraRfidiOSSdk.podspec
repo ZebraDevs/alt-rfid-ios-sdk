@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name         = 'ZebraRfidiOSSdk'
   s.version      = '1.0.0'
-  s.summary      = 'Zebra barcode and RFID iOS SDK Framework.'
+  s.summary      = 'Zebra Barcode and RFID iOS SDK Framework.'
   s.description  =  <<-DESC
-		Zebra barcode and RFID iOS SDK Framework.
+		Zebra Barcode and RFID iOS SDK Framework.
 			DESC
   s.homepage     = 'https://github.com/ZebraDevs/alt-rfid-ios-sdk.git'
   s.authors      = { 'ZebraTechnologies' => 'altrfidscm@zebra.com' }
