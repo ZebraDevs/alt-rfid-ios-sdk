@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZebraBarcodeiOSSdk'
-  s.version      = '0.1.4'
+  s.version      = '0.1.5'
   s.summary      = 'Zebra Barcode and RFID iOS SDK Framework.'
   s.description  =  <<-DESC
 		Zebra Barcode and RFID iOS SDK Framework.
@@ -13,5 +13,8 @@ Pod::Spec.new do |s|
   s.source_files  = 'FrameworkScannerAndRfidSDK/BarcodeFramework/ZebraScannerFramework.xcframework/**/*.{h}'  
  
   s.ios.deployment_target  = '14.0'
+ s.vendored_frameworks = 'FrameworkScannerAndRfidSDK/BarcodeFramework/ZebraScannerFramework.xcframework' 
+
+
 
 end
