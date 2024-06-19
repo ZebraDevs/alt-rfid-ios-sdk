@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
     NSString *private_Key;
     NSString *password;
     NSString *private_Password;
+    NSString *client_Certificate;
 }
 - (NSString*)getSSID;
 - (void)setSSID:(NSString*)val;
@@ -40,6 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString*)getPassword;
 - (void)setPassword:(NSString*)val;
 - (void)setPrivatePassword:(NSString*)val;
+- (NSString*)getClientCertificate;
+- (void)setClientCertificate:(NSString*)val;
 @end
 
 NS_ASSUME_NONNULL_END

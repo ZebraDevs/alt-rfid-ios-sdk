@@ -12,27 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface srfidGetWifiStatusInfo : NSObject
 {
-    NSString *wifiStatus;
-    NSString *wifiSSID;
-    NSString *wifiMac;
-    NSString *wifiAddress;
-    NSString *wifiNetMask;
+    NSMutableDictionary *statusDictionary;
 }
 
-- (NSString*)getWifiStatus;
-- (void)setWifiStatus:(NSString*)val;
+- (NSMutableDictionary*)getStatusDictionary;
+- (void)setStatusDictionary:(NSMutableDictionary*)val;
 
-- (NSString*)getWifiSSID;
-- (void)setWifiSSID:(NSString*)val;
-
-- (NSString*)getWifiMac;
-- (void)setWifiMac:(NSString*)val;
-
-- (NSString*)getWifiAddress;
-- (void)setWifiAddress:(NSString*)val;
-
-- (NSString*)getWifiNetMask;
-- (void)setWifiNetMask:(NSString*)val;
 
 @end
 

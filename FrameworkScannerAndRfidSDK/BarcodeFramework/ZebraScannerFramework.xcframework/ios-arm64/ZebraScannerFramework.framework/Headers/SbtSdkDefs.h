@@ -115,6 +115,7 @@ enum
 	SBT_DEVICE_RELEASE_TRIGGER                  = 0x7DC,	//2012
 	SBT_DEVICE_SCAN_DISABLE                     = 0x7DD,	//2013
 	SBT_DEVICE_SCAN_ENABLE                      = 0x7DE,	//2014
+    SBT_DEVICE_BATCH_REQUEST                    = 0x7DF,    //2015
     SBT_DEVICE_CAPTURE_IMAGE                    = 0xBB8,	//3000
     SBT_DEVICE_CAPTURE_BARCODE                  = 0xDAC,	//3500
 	SBT_DEVICE_CAPTURE_VIDEO                    = 0xFA0,	//4000
