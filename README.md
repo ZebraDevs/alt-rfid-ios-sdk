@@ -53,6 +53,20 @@ pod 'ZebraBarcodeiOSSdk', :git => 'https://github.com/ZebraDevs/alt-rfid-ios-sdk
 ###  7. Now you can import the headers files for ZebraScannerFramework and ZebraRfidSdkFramework.
 
 
+<img width="806" alt="Screenshot 2024-06-20 at 11 15 26 AM" src="https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/0c8a763a-1c11-461f-8537-fe02d46fbe20">
+
+
+
+### Note :
+if you got any sandbox resync isssue, 
+
+![image](https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/d5064d83-120f-44fa-ac43-b10f65f880f5)
+
+Please Set No for User Script Sandboxing
+
+![image](https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/6b575e91-3bc2-4a99-b28f-596af1394802)
+
+
 # Setup Cocoa-Pods in Existing 123RFID iOS Project
 
 ### 1.	Remove the existing ‘Framework’ folder.
