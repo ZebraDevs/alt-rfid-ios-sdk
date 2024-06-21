@@ -25,7 +25,7 @@ pod 'ZebraBarcodeiOSSdk', :git => 'https://github.com/ZebraDevs/alt-rfid-ios-sdk
 
 <img width="401" alt="image" src="https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/eac439df-9e09-4123-9bc6-18ecdfe2a902">
 
-### 3.	Open the Podfile and add the following two lines to it and save the pod file
+### 3.	Type 'Pod install' 
 
 <img width="416" alt="image" src="https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/97b216d3-3d6d-4906-9357-2b8f687e26b1">
 
