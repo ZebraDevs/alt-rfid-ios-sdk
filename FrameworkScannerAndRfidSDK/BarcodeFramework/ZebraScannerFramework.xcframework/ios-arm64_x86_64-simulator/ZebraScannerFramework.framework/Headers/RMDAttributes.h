@@ -75,6 +75,10 @@
 #define RMD_ATTR_AZTEC                                 574
 #define RMD_ATTR_SYM_DOT_CODE                          1906
 
+#define RMT_ATTR_SYM_CODE_32                           86
+#define RMT_ATTR_SYM_ISBN                              576
+#define RMT_ATTR_SYM_TRIOPTIC_CODE_39                  13
+
 #define RMD_ATTR_HANXIN                               1167
 #define RMD_ATTR_COMPOSITE_CC_C                        341
 #define RMD_ATTR_COMPOSITE_CC_A_B                      342
