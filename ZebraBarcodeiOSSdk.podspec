@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZebraBarcodeiOSSdk'
-  s.version      = '0.1.9'
+  s.version      = '0.1.10'
   s.summary      = 'Zebra Barcode and RFID iOS SDK Framework.'
   s.description  =  <<-DESC
 		Zebra Barcode and RFID iOS SDK Framework.
