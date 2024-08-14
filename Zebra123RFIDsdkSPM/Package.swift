@@ -7,22 +7,27 @@ let package = Package(
     name: "Zebra123RFIDsdkSPM",
     
     platforms: [
-           .iOS(.v14)
+           .iOS(.v14),
+           .macOS(.v11)
           
        ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "Zebra123RFIDsdkSPM",
-            targets: ["Zebra123RFIDsdkSPM"]),
+            targets: ["ZebraRfidSdkFramework", "ZebraScannerFramework"]
+        ),
     ],
+    
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "Zebra123RFIDsdkSPM"),
-        .testTarget(
-            name: "Zebra123RFIDsdkSPMTests",
-            dependencies: ["Zebra123RFIDsdkSPM"]),
-    ]
+            .binaryTarget(
+                name: "ZebraRfidSdkFramework",
+                path: "./Sources/Frameworks/ZebraRfidSdkFramework.xcframework"
+            ),
+            .binaryTarget(
+                name: "ZebraScannerFramework",
+                path: "./Sources/Frameworks/ZebraScannerFramework.xcframework"
+            ),
+        ]
+
 )
