@@ -7,12 +7,11 @@ let package = Package(
     name: "Zebra123RFIDsdkSPM",
     
     platforms: [
-           .iOS(.v14),
-           .macOS(.v11)
+           .iOS(.v14)
           
        ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
+
         .library(
             name: "Zebra123RFIDsdkSPM",
             targets: ["ZebraRfidSdkFramework", "ZebraScannerFramework"]
