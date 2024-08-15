@@ -19,14 +19,17 @@ let package = Package(
     ],
     
     targets: [
+        .target(
+            name: "Zebra123RFIDsdkSPM"),
             .binaryTarget(
                 name: "ZebraRfidSdkFramework",
-                path: "./Sources/Frameworks/ZebraRfidSdkFramework.xcframework"
+                path: "./Frameworks/ZebraRfidSdkFramework.xcframework"
             ),
             .binaryTarget(
                 name: "ZebraScannerFramework",
-                path: "./Sources/Frameworks/ZebraScannerFramework.xcframework"
+                path: "./Frameworks/ZebraScannerFramework.xcframework"
             ),
         ]
 
 )
+
