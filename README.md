@@ -1,5 +1,62 @@
 The Zebra RFID SDK for iOS enables MFi-enabled devices to interface with the RFD8500, RFD40, and RF90 via its Bluetooth interface. The Zebra RFID SDK provides a powerful set of APIs that use directly the ZETI (Zebra Easy Text Interface) exclusively created to take full advantage of the RFD8500, RFD40, and RF90 performance, functionality, and versatility. The SDK also contains the Zebra RFID Mobile application that can be used as a reference to develop new applications or to port existing applications to take advantage of the RFID features. 
 
+# Configure Swift Package Manager - SPM (Rfid_iOS_SDK) in your iOS project.
+### 1. Go to the "Add Package" Interface
+
+In Xcode, select your project from the Project Navigator (the folder icon on the left).
+Now, in the main window, ensure the project file (with the .xcodeproj extension) is selected.
+Click on the "Package Dependencies" tab in the project settings.
+You’ll see a "+" button at the bottom of the dependencies list. Click on this "+" button.
+
+<img width="1238" alt="Screenshot 2024-08-16 at 9 46 06 AM" src="https://github.com/user-attachments/assets/04eadde0-76a8-4304-bd9e-c5ef373c0d4c">
+
+
+Select Add Package Dependencies
+
+
+<img width="495" alt="Screenshot 2024-08-16 at 9 52 07 AM" src="https://github.com/user-attachments/assets/abf3dc27-dba6-4fde-ba9c-e2a2c11523aa">
+
+### 2. Search for the Package or Enter the Repository URL
+
+A new window titled "Add Package" will appear.
+In the search bar, 
+Paste the Git repository URL for the package
+
+https://github.com/ZebraDevs/alt-rfid-ios-sdk
+
+
+![image](https://github.com/user-attachments/assets/ff218818-201d-4a50-9dc4-ccdb9c4633d0)
+
+
+
+### 3. Add Package to Your Target
+Xcode will now fetch the package.
+After that, you’ll be asked to confirm which target(s) the package should be linked to. Typically, this will be your app's target.
+Select your target(s) and click Add Package.
+
+![image](https://github.com/user-attachments/assets/d0549256-e310-4fa0-af7a-6c6251948466)
+
+![image](https://github.com/user-attachments/assets/dd2a8340-44a4-4e89-b615-8e779763f601)
+
+![image](https://github.com/user-attachments/assets/a7f8f6f7-3d7e-4b0b-b6a5-2e3e2fdc775a)
+
+
+### 4. Import and Use the Package
+
+After adding the package, you can start using it in your project.
+In your Swift files, import the package's module by adding the import statement:
+
+import ZebraScannerFramework
+
+import ZebraRfidSdkFramework
+
+
+![image](https://github.com/user-attachments/assets/e996c595-bc57-4cbb-80f9-cee91f95c944)
+
+
+
+
+
 # Configure Cocoapods (Rfid_iOS_SDK) in your iOS project.
 ### 1.	Start a new project in Xcode, then open a terminal, navigate to the project's directory, and enter 'pod init' to generate the Podfile. Verify that the Podfile has been created.
  .
