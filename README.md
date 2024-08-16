@@ -57,8 +57,12 @@ import ZebraRfidSdkFramework
 ### Note :
 
 For existing 123RFID iOS projects that utilize earlier versions of the framework without employing Swift Package Manager (SPM).
-Please Follow steps 1 to 9 in 
+Please Follow steps 1 to 9 in Setup Cocoa-Pods in Existing 123RFID iOS Project
 https://github.com/ZebraDevs/alt-rfid-ios-sdk?tab=readme-ov-file#setup-cocoa-pods-in-existing-123rfid-ios-project
+
+
+
+
 
 
 
