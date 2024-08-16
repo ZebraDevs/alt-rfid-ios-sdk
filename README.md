@@ -8,7 +8,7 @@ Now, in the main window, ensure the project file (with the .xcodeproj extension)
 Click on the "Package Dependencies" tab in the project settings.
 You’ll see a "+" button at the bottom of the dependencies list. Click on this "+" button.
 
-<img width="1238" alt="Screenshot 2024-08-16 at 9 46 06 AM" src="https://github.com/user-attachments/assets/04eadde0-76a8-4304-bd9e-c5ef373c0d4c">
+<img width="629" alt="Screenshot 2024-08-16 at 9 46 06 AM" src="https://github.com/user-attachments/assets/04eadde0-76a8-4304-bd9e-c5ef373c0d4c">
 
 
 Select Add Package Dependencies
@@ -119,7 +119,7 @@ pod 'ZebraBarcodeiOSSdk', :git => 'https://github.com/ZebraDevs/alt-rfid-ios-sdk
 ###  7. Now you can import the headers files for ZebraScannerFramework and ZebraRfidSdkFramework.
 
 
-<img width="806" alt="Screenshot 2024-06-20 at 11 15 26 AM" src="https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/0c8a763a-1c11-461f-8537-fe02d46fbe20">
+<img width="403" alt="Screenshot 2024-06-20 at 11 15 26 AM" src="https://github.com/ZebraDevs/alt-rfid-ios-sdk/assets/134683912/0c8a763a-1c11-461f-8537-fe02d46fbe20">
 
 
 
