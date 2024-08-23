@@ -2,7 +2,7 @@
 # RFID_iOS_SDK license
 ## END USER LICENSE AGREEMENT ##
 **(UNRESTRICTED SOFTWARE)** 
- [link](http://link-os.github.io/Zebra_SDK_EULA.pdf)
+ [link](https://www.zebra.com/us/en/support-downloads/eula/development-eula.html)
 
 
 **IMPORTANT PLEASE READ CAREFULLY:** This End User License Agreement ("EULA") is a legal
